@@ -28,7 +28,7 @@ from keras import backend as K
 
 from google.cloud import translate
 target = 'es'
-os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "my-project---soh-1540652856061-03e00d51741e.json"
+os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "C:\jsonFile.json"
 translate_client = translate.Client()
 
 from flask import Flask, request, redirect, url_for, jsonify, render_template
