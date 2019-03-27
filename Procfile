@@ -1,1 +1,1 @@
-web: gunicorn Web_Page_Stuff.app.1:app
+web: gunicorn app.1:app
